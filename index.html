@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delizia Restaurant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Delizia</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome to Delizia</h1>
+        <p>"Experience the finest Italian cuisine in the heart of the city."</p>
+        <a href="#menu" class="btn">View Menu</a>
+      </div>
+    </section>
+
+    <!-- Menu Section with Images -->
+    <section id="menu" class="menu-section">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        
+        <div class="menu-category">
+          <h3>Appetizers</h3>
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=500" alt="Bruschetta" class="menu-img"/>
+          <ul>
+            <li>Bruschetta - ₹180</li>
+            <li>Garlic Bread - ₹140</li>
+            <li>Stuffed Mushrooms - ₹200</li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3>Main Courses</h3>
+          <img src="pizza.jpg" alt="Pizza" class="menu-img"/>
+          <ul>
+            <li>Margherita Pizza - ₹350</li>
+            <li>Spaghetti Carbonara - ₹420</li>
+            <li>Lasagna - ₹400</li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3>Desserts</h3>
+          <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=500" alt="Tiramisu" class="menu-img"/>
+          <ul>
+            <li>Tiramisu - ₹200</li>
+            <li>Panna Cotta - ₹180</li>
+            <li>Gelato - ₹150</li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3>Beverages</h3>
+          <img src="https://images.unsplash.com/photo-1562059390-a761a084768e?w=500" alt="Wine" class="menu-img"/>
+          <ul>
+            <li>Italian Soda - ₹120</li>
+            <li>Coffee - ₹90</li>
+            <li>Wine - ₹350</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>
+        Delizia is a celebration of authentic Italian flavors. Since 2015, we have brought
+        traditional recipes and warm hospitality to our guests. Enjoy a cozy ambiance, fresh
+        ingredients, and a passion for delicious food!
+      </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p><strong>Address:</strong> 123 Main Street, Downtown, Mumbai</p>
+        <p><strong>Hours:</strong> Daily 11:00 AM - 11:00 PM</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> info@delizia.com</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Delizia Restaurant. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
